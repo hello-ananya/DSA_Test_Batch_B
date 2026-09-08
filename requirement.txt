@@ -1,0 +1,31 @@
+1. What is an algorithm? List two characteristics of a good algorithm.
+Answer- A step-by-step procedure to solve a problem in a finite number of steps. 
+Characteristics- 1.Finiteness 2.Definiteness 
+
+2. Explain the difference between static and dynamic data structures?
+Answer- Static have a fixed size decides at compile time while dunamic can grow in size in runtime.
+
+3. what is an abstract data type(ADT)? Give one example
+Answer- An abstract data type defines  a set of operations on data without specifying how they are implemented internally 
+Example- Stack
+
+4. What is the difference between a stack's push and pop operations?
+Answer- Push is used to add an element on top of the stack, while pop is used to remove the element from the top of the stack.
+
+5. What is a queue's enqueue operation? What happens during dequeue?
+Answer- Enqueue adds a new element at the back of the queue, and dequeue removes the element from the front of the queue.
+
+6. What is the best-case and worst-case time complexity of linear search?
+Answer- The best case is O(1) when the element is found right at the start, and the worst case is O(n) when the element is at the end or not found at all.
+
+7. Why must data generally be sorted before applying binary search?
+Answer- Binary search keeps dividing the data into halves to find the element, and this only works correctly if the data is already sorted.
+
+8. What is a singly linked list? How is it different from an array?
+Answer- A singly linked list is a chain of nodes where each node has data and a pointer to the next node, and unlike an array, it doesn't need continuous memory and can easily change size.
+
+9. What is a binary tree? What is the maximum number of children of a node?
+Answer- A binary tree is a tree structure where each node can have at most two children, called the left child and the right child.
+
+10. Differentiate between BFS and DFS at a basic conceptual level.
+Answer- BFS explores the graph level by level using a queue, while DFS goes deep into one path first before coming back, using a stack or recursion.
